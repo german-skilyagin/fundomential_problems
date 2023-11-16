@@ -1,0 +1,11 @@
+mov 0
+mov 1
+ifeqp 0 1
+prt 0
+pos 0
+diff 0 1 2
+pos 2
+diff 0 1 0
+neg 2
+diff 1 0 1
+jg 24
